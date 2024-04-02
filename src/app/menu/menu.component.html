@@ -1,0 +1,25 @@
+<!-- <mat-toolbar color="primary">
+    <span><a routerLink="inicio"><img src="./assets/img/logo.png"></a></span>
+    <span><a routerLink="inicio">Produtos</a></span>
+    <span class="example-spacer"></span>
+    <span><a routerLink="login">Login</a></span>
+</mat-toolbar> -->
+
+<mat-toolbar>
+  <mat-toolbar-row>
+    <a class="logo" routerLink="/">
+      <img src="./assets/img/logo.png">
+    </a>
+    <div class="menu-links">
+      <a mat-button routerLink="/">Produtos</a>
+      <a mat-button routerLink="jogos">Jogos</a>
+      <a mat-button routerLink="contatos">Contatos</a>
+    </div>
+
+    <span class="example-spacer"></span>
+    <div class="menu-links">
+      <a mat-button href="#" target="_blank" routerLink="login">Login</a>
+    </div>
+
+  </mat-toolbar-row>
+
